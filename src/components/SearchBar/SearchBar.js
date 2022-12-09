@@ -18,6 +18,7 @@ class SearchBar extends React.Component {
         };
     }
 
+    // Return a class that changes CSS styles to one renderSortByOptions() that has been selected
     getSortByClass(sortByOption) {
         if (this.state.sortBy === sortByOption) {
             return 'active';
