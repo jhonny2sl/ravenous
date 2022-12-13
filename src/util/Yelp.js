@@ -1,7 +1,7 @@
 // API key contains Yelp API v3 Credentials (make sure to leave it empty when this file is being shared or not in use)
 const apiKey = '';
 
-// This object will store the functionality needed to interact with the Yelp API
+// This object will store the functionality needed to interact with the Yelp API (soon will be called as module)
 const Yelp = {
     // Method to retrieve search results from the Yelp API
     search(term, location, sortBy) {
@@ -32,3 +32,5 @@ const Yelp = {
         });
     }
 };
+
+export default Yelp;
