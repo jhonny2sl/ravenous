@@ -4,7 +4,7 @@ import BusinessList from '../BusinessList/BusinessList';
 import SearchBar from '../SearchBar/SearchBar';
 import Yelp from '../../util/Yelp';
 
-const business = {
+/* const business = {
   imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
   address: '1010 Paddington Way',
@@ -14,16 +14,16 @@ const business = {
   category: 'Italian',
   rating: 4.5,
   reviewCount: 90
-};
+}; */
 
-const businesses = [
+/* const businesses = [
   business,
   business,
   business,
   business,
   business,
   business
-];
+]; */
 
 class App extends React.Component {
   searchYelp(term, location, sortBy) {
